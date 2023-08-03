@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,265 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.top{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../public/images/pexels-abet-llacer-1467193.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-color: black;
+}
+
+.top-content{
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  text-align: center;
+}
+
+.top-content h1{
+  font-size: 3.5rem;
+}
+
+.top-content h2{
+  font-size: 2rem;
+}
+
+.top h1, h2{
+  color: white;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 5%;
+}
+
+.main{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 2% 3%;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+
+.main h1{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  font-weight: 400;
+  color: gray;
+  border-bottom: solid gray;
+}
+
+.invite1{
+  background-image: url("/public/images/pexels-pixabay-459976.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  filter: brightness(60%);
+  transition: all  1s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.invite2{
+  background-image: url("/public/images/pexels-jonathan-borba-3014856.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  filter: brightness(60%);
+  transition: all  1s ease;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+.invite1 h2, .invite2 h2{
+  font-size: 4rem;
+  font-weight: 700;
+  transition: all  1s ease;
+}
+
+.invite1:hover, .invite2:hover{
+  filter: brightness(100%);
+  
+}
+.invite1:hover h2, .invite2:hover h2{
+  opacity: 0;
+  transition: all  1s ease;
+}
+
+.content{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 3% 4%;
+  gap: 50%;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+
+.wrapper-botez{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  gap: 2%;
+}
+
+.text{
+  width: 100%;
+
+}
+
+.text h1{
+  margin-top: 0;
+}
+
+.demo-botez{
+  width: 90%;;
+  background-image: url("../public/images/pexels-anastasia-shuraeva-4122925.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70%;
+}
+
+.wrapper-nunta{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 500px;
+  padding: 5%;
+  gap: 2%;
+}
+
+.demo-nunta{
+  width: 100%;;
+  background-image: url("../public/images/pexels-văn-thắng-1415131.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70%;
+}
+
+.main2{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 2% 3%;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+
+.main2 h1{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  font-weight: 400;
+  color: gray;
+  border-bottom: solid gray;
+}
+
+.main2 ol{
+  width: 50%;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card{
+  width: 50%;
+  position: relative;
+  padding-top: 2%;
+  transition: all  1s ease;
+  cursor: pointer;  
+  
+}
+
+.card img{
+  max-width:100%;
+  max-height:100%;
+  object-fit: contain;
+  filter: brightness(50%);
+  transition: all  1s ease;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+.card p{
+  font-size: 3rem;
+  position: absolute;
+  z-index: 2;
+  color: white;
+  font-weight: 500;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all  1s ease;
+  text-align: center;
+}
+
+.card img:hover{
+  filter: brightness(100%);
+}
+
+.card img:hover ~ p{
+  opacity: 0;
+}
+
+.instructions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.instructions ol{
+  width: 80%;
+}
+
+.instructions li{
+  font-size: 1.5rem;
+}
+
+.instructions p{
+  font-size: 1.2rem;
+}
+
+.steps li{
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
