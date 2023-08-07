@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/invitatii-evenimente/static/css/main.71b7c4d3.css",
+    "main.css": "/invitatii-evenimente/static/css/main.bbe77fd9.css",
     "main.js": "/invitatii-evenimente/static/js/main.0122fbf3.js",
     "static/media/pexels-abet-llacer-1467193.jpg": "/invitatii-evenimente/static/media/pexels-abet-llacer-1467193.d5936376207cf6d696e0.jpg",
     "static/media/pexels-jonathan-borba-3014856.jpg": "/invitatii-evenimente/static/media/pexels-jonathan-borba-3014856.b82affc7f470af29ac3d.jpg",
@@ -8,11 +8,11 @@
     "static/media/pexels-văn-thắng-1415131.jpg": "/invitatii-evenimente/static/media/pexels-văn-thắng-1415131.281d86440403e6e41bd2.jpg",
     "static/media/pexels-pixabay-459976.jpg": "/invitatii-evenimente/static/media/pexels-pixabay-459976.2398aa802d32f42c5688.jpg",
     "index.html": "/invitatii-evenimente/index.html",
-    "main.71b7c4d3.css.map": "/invitatii-evenimente/static/css/main.71b7c4d3.css.map",
+    "main.bbe77fd9.css.map": "/invitatii-evenimente/static/css/main.bbe77fd9.css.map",
     "main.0122fbf3.js.map": "/invitatii-evenimente/static/js/main.0122fbf3.js.map"
   },
   "entrypoints": [
-    "static/css/main.71b7c4d3.css",
+    "static/css/main.bbe77fd9.css",
     "static/js/main.0122fbf3.js"
   ]
 }
